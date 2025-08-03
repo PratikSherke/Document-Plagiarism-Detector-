@@ -1,4 +1,4 @@
-# Text Dissimilarity Analyzer
+# Plagiarism Detection with Word Mover's Distance and Network Visualization
 
 Welcome to the **Text Dissimilarity Analyzer**, a powerful Streamlit-based web application designed to analyze semantic dissimilarity between text documents using **Word Mover's Distance (WMD)**. This tool leverages natural language processing (NLP) and optimization techniques to provide insightful comparisons, visualizations, and plagiarism detection capabilities. Whether you're comparing two texts, analyzing multiple documents, or detecting potential plagiarism, this application offers an intuitive interface and robust functionality.
 
