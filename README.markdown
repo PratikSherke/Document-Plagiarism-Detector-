@@ -81,7 +81,6 @@ text-dissimilarity-analyzer/
 │
 ├── txtapp.py              # Main Streamlit application
 ├── requirements.txt       # Python dependencies
-├── .gitignore             # Git ignore file
 └── README.md              # Project documentation
 ```
 
@@ -106,26 +105,5 @@ The project relies on the following Python packages (listed in `requirements.txt
 - **Preprocessing**: The NLP pipeline removes stopwords, lemmatizes words, and excludes proper nouns for robust WMD computation.
 - **Gurobi**: WMD is computed using Gurobi's optimization solver. Ensure you have a valid license to avoid errors.
 - **Performance**: For large texts or multiple files, computation may take longer due to WMD's complexity. Consider using smaller texts for faster results.
-
-## Contributing
-
-Contributions are welcome! To contribute:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Make your changes and commit (`git commit -m "Add your feature"`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Open a Pull Request.
-
-Please ensure your code follows PEP 8 guidelines and includes appropriate documentation.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For questions or suggestions, please open an issue on GitHub or contact [your-email@example.com].
-
----
 
 Happy analyzing! 📝✨
